@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<title>Curso de Bootstrap 3</title>
+	<meta name="description" content="curso de bootstrap 3">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+	<style>
+		.table-striped > tbody > tr {
+			background-color: #ddd;
+		}
+		.table-hover > tbody >tr:hover {
+			background-color: #666;
+			color: #fff;
+		}
+	</style>
+</head>
+<body>
+<!-- <button id="show-limits">OFF</button> -->
+<div class="container">
+	<h1>Bootstrap h1</h1>
+	<h2>Bootstrap h2</h2>
+	<h3>Bootstrap h3</h3>
+	<h4>Bootstrap h4</h4>
+	<h5>Bootstrap h5</h5>
+	<h6>Bootstrap h6</h6>
+</div>
+
+<div class="row">
+	<div class="col-md-6">
+		<h1>Alinhamento de Texto</h1>
+		<p class="text-left">Texto a Esquerda</p>
+		<p class="text-right">Texto a Direita</p>
+		<p class="text-center">Texto no Centro</p>
+		<p class="text-justify">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+		<p class="text-nowrap">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+	</div>
+	<div class="col-md-6">
+		<h2>Outros</h2>
+		<p class="text-lowercase">APRENDENDO BOOTSTRAP</p>
+		<p class="text-uppercase">aprendendo bootstrap</p>
+		<p class="text-capitalize">primeira letra em maiúscula</p>
+
+		<ul class="list-inline">
+			<li>item</li>
+			<li>item</li>
+			<li>item
+				<ul class="list-unstyled">
+					<li>sub</li>
+					<li>sub</li>
+					<li>sub</li>
+				</ul>
+			</li>
+			<li>item</li>
+			<li>item</li>
+		</ul>
+	</div>
+</div>
+
+<div class="container">
+	<div class="col-md-6 col-md-offset-3">
+		<table class="table table-striped table-condensed table-bordered table-hover">
+			<thead>
+				<tr>
+					<th>Protocolo</th>
+					<th>Razão Social</th>
+					<th>CNPJ</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td>0001</td>
+					<td>Bootatrap Essencial - ME</td>
+					<td>00.000.000/0001-00</td>
+				</tr><tr>
+					<td>0001</td>
+					<td>Bootatrap Essencial - ME</td>
+					<td>00.000.000/0001-00</td>
+				</tr><tr>
+					<td>0001</td>
+					<td>Bootatrap Essencial - ME</td>
+					<td>00.000.000/0001-00</td>
+				</tr><tr>
+					<td>0001</td>
+					<td>Bootatrap Essencial - ME</td>
+					<td>00.000.000/0001-00</td>
+				</tr><tr>
+					<td>0001</td>
+					<td>Bootatrap Essencial - ME</td>
+					<td>00.000.000/0001-00</td>
+				</tr>
+			</tbody>
+		</table>
+	</div>
+</div>
+
+<div class="container">
+	<div class="col-md-6 col-md-offset-3">
+		<div class="table-responsive">
+			<table class="table">
+				<thead>
+					<tr>
+						<th>Protocolo</th>
+						<th>Razão Social</th>
+						<th>CNPJ</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr class="danger">
+						<td>0001</td>
+						<td>Bootatrap Essencial - ME</td>
+						<td>00.000.000/0001-00</td>
+					</tr><tr>
+						<td>0001</td>
+						<td>Bootatrap Essencial - ME</td>
+						<td>00.000.000/0001-00</td>
+					</tr><tr class="success">
+						<td>0001</td>
+						<td>Bootatrap Essencial - ME</td>
+						<td>00.000.000/0001-00</td>
+					</tr><tr>
+						<td>0001</td>
+						<td>Bootatrap Essencial - ME</td>
+						<td>00.000.000/0001-00</td>
+					</tr><tr>
+						<td>0001</td>
+						<td>Bootatrap Essencial - ME</td>
+						<td>00.000.000/0001-00</td>
+					</tr>
+				</tbody>
+			</table>
+		</div> <!-- table-responsive -->
+	</div>
+</div>
+
+<p class="bg-info">Utilizando: form-control { width:100%; }</p>
+<div class="container">	
+	<form>
+		<input type="text" class="form-control">
+		<select name="" id="" class="form-control">
+			<option value="">item 1</option>
+			<option value="">item 2</option>
+			<option value="">item 3</option>
+			<option value="">item 4</option>
+		</select>
+		<textarea name="" id="" cols="30" rows="5" class="form-control"></textarea>
+	</form>
+</div> <!-- container -->
+
+<p class="bg-info">Utilizando: form-inline { widht:auto; display:inline-block; }</p>
+<div class="container">	
+	<form class="form-inline">
+		<input type="text" class="form-control">
+		<select name="" id="" class="form-control">
+			<option value="">item 1</option>
+			<option value="">item 2</option>
+			<option value="">item 3</option>
+			<option value="">item 4</option>
+		</select>
+	</form>
+</div> <!-- container -->
+
+<p class="bg-info">Utilizando: form-horizontal { widht:auto; display:block; }</p>
+<div class="container">	
+	<form class="form-horizontal">
+		<input type="text" class="form-control">
+		<select name="" id="" class="form-control">
+			<option value="">item 1</option>
+			<option value="">item 2</option>
+			<option value="">item 3</option>
+			<option value="">item 4</option>
+		</select>
+	</form>
+</div> <!-- container -->
+
+<p class="bg-info">Utilizando: row; col-md-x; form-group</p>
+<div class="container">
+	<form class="form-horizontal">
+		<div class="row">
+
+			<div class="col-md-4 form-group">
+				<input type="text" class="form-control">
+			</div>
+			<div class="col-md-8 form-group">
+				<select name="" id="" class="form-control">
+					<option value="">item 1</option>
+					<option value="">item 2</option>
+					<option value="">item 3</option>
+					<option value="">item 4</option>
+				</select>
+			</div>
+
+			<div class="col-md-4 form-group">
+				<input type="text" class="form-control">
+			</div>
+			<div class="col-md-8 form-group">
+				<select name="" id="" class="form-control">
+					<option value="">item 1</option>
+					<option value="">item 2</option>
+					<option value="">item 3</option>
+					<option value="">item 4</option>
+				</select>
+			</div>
+
+		</div> <!-- row -->
+	</form>
+</div> <!-- container -->
+
+<div class="container">
+	<form class="form-horizontal">
+		<div class="checkbox-inline">
+			<input type="checkbox"> Valor
+		</div>
+		<div class="radio-inline">
+			<input type="radio"> Valor
+		</div>
+		<div class="">
+			<input type="checkbox"> Valor
+		</div>
+		<div class="">
+			<input type="radio"> Valor
+		</div>
+	</form>
+</div> <!-- container -->
+
+<div class="container">
+	<form class="form-horizontal">
+		<p>Controlando o tamanho do input.</p>
+		<input type="text" class="form-control" placeholder="input normal">
+		<input type="text" class="form-control input-sm" placeholder="input small">
+		<input type="text" class="form-control input-lg" placeholder="input large">
+	</form>
+</div>
+
+<div class="container">
+	<form class="form-horizontal">
+		<div class="has-warning">
+			<label for="warning" class="control-label">E-mail</label>
+			<input type="text" class="form-control" id="warning">
+		</div>
+		<div class="has-success">
+			<label for="success" class="control-label">Nome</label>
+			<input type="text" class="form-control" id="success">
+		</div>
+	</form>
+</div>
+
+<p>Botões</p>
+<div class="jumbotron">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-6">
+				<h1>GO! now</h1>
+			</div>
+			<div class="col-md-6">
+				<button class="btn btn-success">Normal</button>
+				<button class="btn btn-success btn-sm">Small</button>
+				<button class="btn btn-success btn-xs">Extra Small</button>
+				<button class="btn btn-success btn-lg">Large</button>
+				<div class="btn-group">
+					<button class="btn btn-primary">Botão 1</button>
+					<button class="btn btn-default">Botão 2</button>
+					<button class="btn btn-danger">Botão 3</button>
+					<button class="btn btn-success">Botão 4</button>
+					<button class="btn btn-link">Botão 5</button>
+				</div>
+			</div>
+		</div><!-- row -->
+	</div><!-- container -->
+</div> <!-- jumbotron -->
+
+<p class="text-success">Grupos de Botões: Toolbar</p>
+<div class="jumbotron">
+	<div class="container">
+		<div class="btn-toolbar">
+			<div class="btn-group btn-group-lg">
+				<button class="btn btn-primary">botão 1</button>
+				<button class="btn btn-primary">botão 2</button>
+			</div>
+			<div class="btn-group btn-group-lg">
+				<button class="btn btn-primary">botão 1</button>
+				<button class="btn btn-primary">botão 2</button>
+				<button class="btn btn-primary">botão 3</button>
+				<button class="btn btn-primary">botão 4</button>
+			</div>
+			<div class="btn-group btn-group-lg">
+				<button class="btn btn-primary">botão 1</button>
+				<button class="btn btn-primary">botão 2</button>
+				<button class="btn btn-primary">botão 3</button>
+			</div>
+		</div> <!-- btn-toolbar -->
+	</div> <!-- container -->
+</div> <!-- jumbotron -->
+
+<p>radiobox e checkbox</p>
+<div class="jumbotron">
+	<div class="container">
+		<div class="btn-group" data-toggle="buttons">
+			<label class="btn btn-primary active">
+				<input type="radio" name="options" id="opt1" checked="true">radiobox 01
+			</label>
+			<label class="btn btn-primary">
+				<input type="radio" name="options" id="opt2">radiobox 02
+			</label>
+		</div>
+		<div class="btn-group" data-toggle="buttons">
+			<label class="btn btn-success">
+				<input type="checkbox" name="options" id="opt1">checkbox 01
+			</label>
+			<label class="btn btn-success">
+				<input type="checkbox" name="options" id="opt2">checkbox 02
+			</label>
+		</div>
+	</div><!-- container -->
+</div><!-- jumbotron -->
+
+
+
+
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+<script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+<script src="https://gamts.github.io/ShowLimits/showlimits.js"></script>
+</body>
+</html>
