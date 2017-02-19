@@ -9,13 +9,20 @@ Basicamente adiciona o seguinte código:
     outline-width: 1px;
 }
 ``` 
-Foi adicionado um botão no canto superior esquerdo para injetar o código acima.
+
+Foi adicionado um botão ![botão](img/imagem3.png) no canto superior esquerdo para injetar o código acima.
 
 Para utiliar, adicione antes da tag `</body>`.
 ```html
-<script src='https://gamts.github.io/ShowLimits/showlimits.js'></script>
+<body>
+    <!-- my page -->
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+    <script src='https://gamts.github.io/ShowLimits/showlimits.js'></script>
+</body>
 ```
+
 Necessário jQuery.
 
-![sem contornos](imagem1.PNG)
-![com contornos](imagem2.PNG)
+
+![sem contornos](img/imagem1.PNG)
+![com contornos](img/imagem2.PNG)
