@@ -10,5 +10,5 @@ Mostra os limites dos elementos HTML. Contorna os Elementos com uma linha tracej
  
 Foi adicionado um botão no canto superior esquerdo para injetar o código acima.
 
-<p><img src="imagem1.PNG"></p>
-<p><img src="imagem2.PNG"></p>
+<p><img src="imagem1.PNG" max-width="300px"></p>
+<p><img src="imagem2.PNG" max-width="300px"></p>
