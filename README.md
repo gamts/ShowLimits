@@ -23,7 +23,7 @@ Para utiliar, adicione antes da tag `</body>`.
 
 Necessário jQuery.
 
-[Exemplo](https://gamts.github.io/ShowLimits/exemplo/exemplo.html target="_blank")
+[Exemplo](https://gamts.github.io/ShowLimits/exemplo/exemplo.html){target="_blank"}
 
 ![sem contornos](img/imagem1.PNG)
 
