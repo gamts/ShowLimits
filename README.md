@@ -2,7 +2,7 @@
 Mostra os limites dos elementos HTML. Contorna os Elementos com uma linha tracejada.
 
 Basicamente adiciona o seguinte código:
-```html
+```css
 * {
     outline-style: dashed;
     outline-color: #FF1493;
@@ -11,7 +11,7 @@ Basicamente adiciona o seguinte código:
 ``` 
 Foi adicionado um botão no canto superior esquerdo para injetar o código acima.
 
-Adicione antes da tag ```html </body>```.
+Para utiliar, adicione antes da tag `</body>`.
 ```html
 <script src='https://gamts.github.io/ShowLimits/showlimits.js'></script>
 ```
