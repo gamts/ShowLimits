@@ -23,6 +23,7 @@ Para utiliar, adicione antes da tag `</body>`.
 
 Necessário jQuery.
 
+[Exemplo](exemplo/exemplo.html target="_blank")
 
 ![sem contornos](img/imagem1.PNG)
 
