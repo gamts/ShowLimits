@@ -1,5 +1,6 @@
 # ShowLimits
 Mostra os limites dos elementos HTML. Contorna os Elementos com uma linha tracejada.
+Útil enquanto estiver montando a estrutura.
 
 Basicamente adiciona o seguinte código:
 ```css
@@ -17,14 +18,19 @@ Para utiliar, adicione antes da tag `</body>`.
 <body>
     <!-- my page -->
     <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
-    <script src='https://gamts.github.io/ShowLimits/showlimits.js'></script>
+    <script src="https://gamts.github.io/ShowLimits/showlimits.js"></script>
 </body>
 ```
 
 Necessário jQuery.
 
-[Exemplo](https://gamts.github.io/ShowLimits/exemplo/exemplo.html)
+Veja um [Exemplo](https://gamts.github.io/ShowLimits/exemplo/exemplo.html).
+*Obs: Exemplo retirado do canal [curso bootstrap](https://www.youtube.com/watch?v=8sU-IVaQYgk&list=PLd4yfya-3PIomj2O-W0s9A-0i1ThWJncj).*
+
 
 ![sem contornos](img/imagem1.PNG)
 
 ![com contornos](img/imagem2.PNG)
+
+
+Sugestões: gesiel.am@gmail.com
