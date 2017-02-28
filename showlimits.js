@@ -15,7 +15,7 @@ var style_btn = "<style>\r\
 		left: 10px;\r\
 		color: #fff;\r\
 		border-radius: 5px;\r\
-		z-index: 10;\r\
+		z-index: 900000;\r\
 	}\r\
 </style>";
 
