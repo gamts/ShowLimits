@@ -25,7 +25,7 @@ Para utiliar, adicione antes da tag `</body>`.
 Necessário jQuery.
 
 Veja um [Exemplo](https://gamts.github.io/ShowLimits/exemplo/exemplo.html).
-*Obs: Exemplo retirado do canal [curso bootstrap](https://www.youtube.com/watch?v=8sU-IVaQYgk&list=PLd4yfya-3PIomj2O-W0s9A-0i1ThWJncj).*
+*(Obs: Exemplo feito com base nos vídeos do canal [curso bootstrap](https://www.youtube.com/watch?v=8sU-IVaQYgk&list=PLd4yfya-3PIomj2O-W0s9A-0i1ThWJncj))*
 
 
 ![sem contornos](img/imagem1.PNG)
